@@ -1,0 +1,39 @@
+html {
+  font-family: Georgia, serif;
+  color: #fff;
+}
+
+.banner {
+  max-width: 25em;
+  max-height: 500px;
+  overflow: hidden
+}
+
+.banner-content {
+  background-color: #495562;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+button {
+  border: 3px solid #97a49b;
+  border-radius: 3px;
+  padding-top: .4em;
+  padding-bottom: .4em;
+  padding-left: .7em;
+  padding-right: .7em;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .banner {
+    max-width: 50em;
+    position: relative;
+  }
+
+  .banner-content {
+    position: absolute;
+  }
+}
